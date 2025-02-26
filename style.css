@@ -1,0 +1,121 @@
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.pt-sans-narrow-regular {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+ h2{
+  font-family: "Josefin Sans", sans-serif;
+  color: #FFFFFF;
+}
+
+p{
+  font-family: "PT Sans Narrow", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: #FFFFFFE6;
+}
+.vaibhavi button{
+  background-color: #A81C51;
+  color:white;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size:14px;
+  
+}
+
+.ab{
+  font-size: 60px;
+}
+h3{
+ color: #FFFFFF;
+}
+.b1 button{
+  background-color: red;
+}
+#hero{
+  background: url("../images/hero_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  position: relative; 
+}
+
+.navbar{
+  background-color: black;
+}
+.navbar2{
+  background-color: transparent;
+}
+
+#portfolio{
+  background-color: black;
+}
+
+#images{
+  background: url("../images/images_background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.images_inner img{
+  display: block; /* Ensures no extra space around the image */
+  border: 35px solid white; /* Inner white border */
+  box-shadow: 0 0 0 10px black; /* Outer black border using box-shadow */
+}
+
+#blog{
+  background-color: black;
+}
+
+#frame{
+  background-color: black;
+}
+.frame_imgs img{
+  border: 10px solid white;
+}
+
+#about_me{
+  background-color: black;
+}
+#footer{
+  background-color: black;
+  height: 25vh;
+}
+@media only screen and (min-width:768px) {
+  .navbar{
+    background-color: transparent;
+  }
+  .img5 img{
+    margin-top: 10%;
+  }
+  .img6 img{
+    margin-top: -45%;
+  }
+  .img7 img{
+    margin-top: -65%;
+  }
+  .img8 img{
+    margin-top: -50%;
+  }
+  .img9 img{
+    margin-top: -55%;
+    margin-left: -107%;
+  }
+  .frame_img1{
+    width: 34.5%;
+  }
+  .frame_img2{
+    width: 33%;
+    margin-left: 62%;
+    margin-top: -49%;
+  }
+  .frame_img3{
+    margin-bottom: -8%;
+  }
+}
